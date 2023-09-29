@@ -10,54 +10,34 @@ body {
   font-weight: 200;
   font-size: 16px;
   line-height: 1.8;
-  color: #657383;
+  color: #89939e;
 }
 
 h1 {
   font-size: 25px;
   font-weight: 700;
-  color: #657383;
+  color: #89939e;
   text-align: center;
 }
 
 a {
-  color: #357b70;
+  color: #29465b;
 }
 
-a:visited {
-  color: #05676e; /* visited link */
+a:active {
+  color: #c0c0c0; /* selected link */
 }
 
 a:hover,
 a:focus {
-  text-decoration: none; /* no underlining when hovering over a link */
-}
-
-a:active {
-  color: #489c79; /* selected link */
-}
-
-button {
-  background-color: #837e7c;
-  font-size: 16px;
-  color: white;
-  border: none; /* overwrites browser defaults and resets the border */
-  font-family: inherit;
   text-decoration: none;
-  padding: 10px; /* add spacing to the button */
-  border-radius: 3px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  color: #c0c0c0; /* no underlining when hovering over a link */
 }
 
 button:hover,
 button:focus {
   cursor: pointer; /* lets the mouse appear as a hand when hovering over the button */
   opacity: 0.8; /* reduces the opacity of the button to 80% */
-}
-
-.button__secondary {
-  background-color: #657383;
-  color: white;
 }
 
 .navigation-list {
@@ -95,7 +75,7 @@ section {
 table {
   padding: 10px;
   margin: auto;
-  border: 2px solid #837e7c;
+  border: 2px solid #c0c0c0;
   width: 500px;
   text-align: center;
 }
@@ -110,7 +90,7 @@ table {
   float: left;
   width: 150px;
   margin-right: 40px;
-  border-radius: 50%;
+  border-radius: 20%;
   border: 10px;
 }
 
@@ -237,7 +217,7 @@ form {
   border: none; /* overwrites browser defaults and resets the border */
   display: inline-block;
   font-family: inherit; /* takes the font from the outer container */
-  background-color: #c4aead;
+  background-color: #a9a9a9;
   text-decoration: none;
   color: white;
   padding: 10px;
