@@ -1,12 +1,10 @@
 :root {
-  --bodyColor: #657383;
+  --bodyColor: #89939e;
   --backgroundGrid: #f5f5f5;
-  --aNovisited: #357b70;
-  --aVisited: #05676e;
-  --aSelected: #489c79;
-  --defaultButton: #837e7c;
+  --aNovisited: #29465b;
+  --aSelected: #c0c0c0;
   --textButton: white;
-  --aboutButton: #c4aead;
+  --aboutButton: #a9a9a9;
   --sunOne: #ffffc2;
   --sunTwo: #ff5f1f;
   --sunThree: #c11b17;
@@ -42,10 +40,6 @@ h1 {
 
 a {
   color: var(--aNovisited);
-}
-
-a:visited {
-  color: var(--aVisited); /* visited link */
 }
 
 a:hover,
@@ -115,7 +109,7 @@ section {
 table {
   padding: var(--padding);
   margin: auto;
-  border: 2px solid var(--defaultButton);
+  border: 2px solid var(--aSelected);
   width: var(--widthTable);
   text-align: center;
 }
@@ -130,7 +124,7 @@ table {
   float: left;
   width: var(--widthPortrait);
   margin-right: 40px;
-  border-radius: 50%;
+  border-radius: 20%;
   border: 10px;
 }
 
