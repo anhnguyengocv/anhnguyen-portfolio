@@ -10,13 +10,13 @@ body {
   font-weight: 200;
   font-size: 16px;
   line-height: 1.8;
-  color: #89939e;
+  color: #6b7886;
 }
 
 h1 {
   font-size: 25px;
   font-weight: 700;
-  color: #89939e;
+  color: #6b7886;
   text-align: center;
 }
 
@@ -217,7 +217,7 @@ form {
   border: none; /* overwrites browser defaults and resets the border */
   display: inline-block;
   font-family: inherit; /* takes the font from the outer container */
-  background-color: #a9a9a9;
+  background-color: #767676;
   text-decoration: none;
   color: white;
   padding: 10px;
