@@ -173,6 +173,7 @@ table {
   width: auto;
   min-height: auto;
   margin: 0;
+  color: #647281;
 }
 
 .grid__item:last-child {
