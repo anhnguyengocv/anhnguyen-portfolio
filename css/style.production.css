@@ -21,11 +21,7 @@ h1 {
 }
 
 a {
-  color: #29465b;
-}
-
-a:active {
-  color: #c0c0c0; /* selected link */
+  color: #454545;
 }
 
 a:hover,
@@ -96,8 +92,22 @@ table {
 }
 
 #logo {
-  width: 200px;
+  width: 350px;
+  height: 10px;
   height: auto;
+}
+
+#about-picture {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 700px;
+  padding: 20px;
 }
 
 .page-footer {
